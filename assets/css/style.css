@@ -72,6 +72,10 @@ header{
     color: white;
 }
 
+.ms_mb-5{
+    margin-bottom: 4.7rem;
+}
+
 
 @media screen and (min-width: 576px){
 
@@ -98,7 +102,7 @@ header{
     }
 
     .top-footer h2{
-        font-size: 40px;
+        font-size: 28px;
     }
 
 }
