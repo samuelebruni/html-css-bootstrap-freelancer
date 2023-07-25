@@ -7,6 +7,71 @@ header{
     background-color: #1abc9c;
 }
 
+.jumbotron p{
+    font-size: 21px;
+}
+
 .jumbotron h2, div{
-    color: white
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.ms_line_left{
+    height: 4px;
+    width: 100px;
+    background-color: white;
+    margin-right: 1rem;
+}
+
+.ms_line_right{
+    height: 4px;
+    width: 100px;
+    background-color: white;
+    margin-left: 1rem;
+}
+
+.jumbo_img{
+    width: 90%;
+}
+
+@media screen and (min-width: 576px){
+    
+} 
+    
+
+@media screen and (min-width: 768px){
+    .jumbotron p{
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .jumbotron p{
+        font-size: 36px;
+    }
+
+    .jumbo_img{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .jumbotron p{
+        font-size: 47px;
+    }
+
+    .jumbotron h2{
+        font-size: 950px;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .jumbotron p{
+        font-size: 54px;
+    }
+
+    .jumbotron h2{
+        font-size: 102px;
+    }
 }
