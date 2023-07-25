@@ -35,8 +35,20 @@ header{
     width: 90%;
 }
 
+.portfolio{
+    background-color: white;
+}
+
+.portfolio h2{
+    color: black;
+}
+
+.portfolio .ms_line_left, .portfolio .ms_line_right{
+    background-color: black;
+}
+
 @media screen and (min-width: 576px){
-    
+
 } 
     
 
@@ -52,7 +64,7 @@ header{
     }
 
     .jumbo_img{
-        width: 80%;
+        width: 60%;
     }
 }
 
@@ -61,7 +73,7 @@ header{
         font-size: 47px;
     }
 
-    .jumbotron h2{
+    .jumbotron h2, .portfolio h2{
         font-size: 950px;
     }
 }
@@ -71,7 +83,7 @@ header{
         font-size: 54px;
     }
 
-    .jumbotron h2{
+    .jumbotron h2, .portfolio h2{
         font-size: 102px;
     }
 }
