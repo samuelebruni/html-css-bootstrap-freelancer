@@ -33,15 +33,12 @@ header{
     width: 90%;
 }
 
-.portfolio{
-    background-color: white;
-}
 
-.portfolio h2{
+.portfolio h2, .contact h2{
     color: black;
 }
 
-.portfolio .ms_line_left, .portfolio .ms_line_right{
+.portfolio .ms_line_left, .portfolio .ms_line_right, .contact .ms_line_left, .contact .ms_line_right{
     background-color: black;
 }
 
@@ -54,6 +51,22 @@ header{
     border-radius: 10px;
     color: white;
 }
+
+.debug .contact{
+    height: 800px;
+}
+
+.top-footer{
+    background-color: #3a546d;
+}
+
+.circle{
+    width: 70px;
+    height: 70px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
 
 @media screen and (min-width: 576px){
 
@@ -81,7 +94,7 @@ header{
         font-size: 47px;
     }
 
-    .jumbotron h2, .portfolio h2, .about h2{
+    .jumbotron h2, .portfolio h2, .about h2, .contact h2{
         font-size: 950px;
     }
 }
@@ -91,7 +104,11 @@ header{
         font-size: 54px;
     }
 
-    .jumbotron h2, .portfolio h2, .about h2{
+    .jumbotron h2, .portfolio h2, .about h2, .contact h2{
         font-size: 102px;
+    }
+
+    .top-footer p, .about p, .about span{
+        font-size: 24px;
     }
 }
