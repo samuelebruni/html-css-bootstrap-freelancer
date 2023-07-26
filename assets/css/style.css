@@ -76,6 +76,10 @@ header{
     margin-bottom: 4.7rem;
 }
 
+.ms_container{
+    margin: auto;
+    width: 40%;
+}
 
 @media screen and (min-width: 576px){
 
@@ -84,7 +88,7 @@ header{
 
 @media screen and (min-width: 768px){
     .jumbotron p{
-        font-size: 28px;
+        font-size: 22px;
     }
 
     .top-footer h2{
@@ -94,7 +98,7 @@ header{
 
 @media screen and (min-width: 992px){
     .jumbotron p{
-        font-size: 36px;
+        font-size: 28px;
     }
 
     .jumbo_img{
@@ -109,11 +113,11 @@ header{
 
 @media screen and (min-width: 1200px){
     .jumbotron p{
-        font-size: 47px;
+        font-size: 32px;
     }
 
     .jumbotron h2, .portfolio h2, .about h2, .contact h2{
-        font-size: 90px;
+        font-size: 72px;
     }
 
     .top-footer h2{
@@ -123,11 +127,11 @@ header{
 
 @media screen and (min-width: 1400px){
     .jumbotron p{
-        font-size: 54px;
+        font-size: 38px;
     }
 
     .jumbotron h2, .portfolio h2, .about h2, .contact h2{
-        font-size: 102px;
+        font-size: 80px;
     }
 
     .top-footer p, .about p, .about span{
